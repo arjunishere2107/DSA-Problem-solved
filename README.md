@@ -29,4 +29,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0242-valid-anagram) |
+## Linked List
+|  |
+| ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0025-reverse-nodes-in-k-group) |
+## Recursion
+|  |
+| ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0025-reverse-nodes-in-k-group) |
 <!---LeetCode Topics End-->
