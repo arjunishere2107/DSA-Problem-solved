@@ -4,13 +4,13 @@
 #         self.val = val
 #         self.next = next
 class Solution(object):
-    def middleNode(self, head):
-        slow_pointer = head
-        fast_pointer = head
+     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
-        while fast_pointer is not None and fast_pointer.next is not None:
-            slow_pointer = slow_pointer.next
-            fast_pointer = fast_pointer.next.next
+      slow = fast = head
 
-        return slow_pointer
-        
+      while fast and fast.next:
+       
+         fast= fast.next.next
+         slow = slow.next
+
+      return slow
