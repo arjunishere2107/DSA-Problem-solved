@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0076-minimum-window-substring) |
+| [0141-linked-list-cycle](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0141-linked-list-cycle) |
 | [0242-valid-anagram](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0242-valid-anagram) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0061-rotate-list) |
+| [0141-linked-list-cycle](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
@@ -55,10 +57,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0061-rotate-list) |
+| [0141-linked-list-cycle](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0876-middle-of-the-linked-list) |
 ## Sliding Window
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0076-minimum-window-substring) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/arjunishere2107/DSA-Problem-solved/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
