@@ -1,16 +1,33 @@
 class Solution:
     def reverseKGroup(self, head, k):
-        curr = head
-        for _ in range(k):
-            if not curr:
-                return head
-            curr = curr.next
+        dummy = ListNode(0)
+        dummy.next = head
 
-        prev, curr = None, head
-        for _ in range(k):
-            nxt = curr.next
-            curr.next = prev
-            prev, curr = curr, nxt
+        group_prev = dummy
 
-        head.next = self.reverseKGroup(curr, k)
-        return prev
+        while True:
+            kth = group_prev
+
+            # Find the kth node
+            for i in range(k):
+                kth = kth.next
+                if not kth:
+                    return dummy.next
+
+            group_next = kth.next
+
+            # Reverse the group
+            prev = group_next
+            curr = group_prev.next
+
+            while curr != group_next:
+                temp = curr.next
+                curr.next = prev
+                prev = curr
+                curr = temp
+
+            temp = group_prev.next
+            group_prev.next = kth
+            group_prev = temp
+
+        return dummy.next
